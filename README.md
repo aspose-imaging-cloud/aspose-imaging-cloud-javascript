@@ -50,26 +50,12 @@ It gives you an ability to:
 
 Detalied official documentation can be found at the [following link](https://docs.aspose.cloud/imaging/).
 
+## Getting Started
 
-## Quick Examples
-Please, look at [Examples](EXAMPLES.md) document for basic usage or use the [Examples](Examples) folder for more sophisticated scenarios.
-
-#### Aspose Cloud-hosted service VS on-premise deployment (*experimental feature*)
-Starting from v19.7, you can choose either to use Aspose Cloud-hosted image processing service (the standard way) or the Docker image from Docker Hub deployed on-premise to serve the requests.
-The details about key differences and deployment process will be described on the dedicated Docker Hub page as soon as it's released.
-
-To succeed with your on-premise service usage by the SDK, you need to:
-1. Use the new API class constructors with either single base URL parameter, or additional API version and debug mode parameters.
-```java
-ImagingApi imagingApi = new ImagingApi("yourServiceUrl");
-```
-2. Set *storage* or *storageName* parameters for each request where they're present (mandatory!).
-
-## Content
-You may check our full [API endpoints list](docs/API_README.md#documentation-for-api-endpoints) or [models available](docs/API_README.md#documentation-for-models) in the SDK.
-
-## Dependencies
-* [Java 1.8 or later](https://java.com/download/)
+### Web application usage
+1. **Sign Up**. Before you begin, you need to sign up for an account on our [Dashboard](https://dashboard.aspose.cloud/) and retrieve your [credentials](https://dashboard.aspose.cloud/#/apps).
+2. **Install Aspose.Imaging Cloud JavaScript SDK**.
+3. **Using the SDK**. The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/display/imagingcloud/Developer+Guide). The [Getting Started Guide](https://docs.aspose.cloud/display/imagingcloud/Getting+Started) will help you to become familiar with the common concepts.
 
 ## Licensing
 All Aspose.Imaging Cloud SDKs, helper scripts and templates are licensed under [MIT License](LICENSE).
