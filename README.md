@@ -60,16 +60,13 @@ The details about key differences and deployment process will be described on th
 
 To succeed with your on-premise service usage by the SDK, you need to:
 1. Use the new API class constructors with either single base URL parameter, or additional API version and debug mode parameters.
-```java
-ImagingApi imagingApi = new ImagingApi("yourServiceUrl");
+```
+new AsposeImaging.ImagingApi('ClientSecret', 'ClientId','ApiUrl')
 ```
 2. Set *storage* or *storageName* parameters for each request where they're present (mandatory!).
 
 ## Content
 You may check our full [API endpoints list](docs/API_README.md#documentation-for-api-endpoints) or [models available](docs/API_README.md#documentation-for-models) in the SDK.
-
-## Dependencies
-* [Java 1.8 or later](https://java.com/download/)
 
 ## Licensing
 All Aspose.Imaging Cloud SDKs, helper scripts and templates are licensed under [MIT License](LICENSE).
