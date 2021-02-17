@@ -55,22 +55,7 @@ Detalied official documentation can be found at the [following link](https://doc
 ### Web application usage
 1. **Sign Up**. Before you begin, you need to sign up for an account on our [Dashboard](https://dashboard.aspose.cloud/) and retrieve your [credentials](https://dashboard.aspose.cloud/#/apps).
 2. **Install Aspose.Imaging Cloud JavaScript SDK**.
-
-TBD
-
 3. **Using the SDK**. The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/display/imagingcloud/Developer+Guide). The [Getting Started Guide](https://docs.aspose.cloud/display/imagingcloud/Getting+Started) will help you to become familiar with the common concepts.
-
-#### Aspose Cloud-hosted service VS on-premise deployment (*experimental feature*)
-Starting from v19.7, you can choose either to use Aspose Cloud-hosted image processing service (the standard way) or the Docker image from Docker Hub deployed on-premise to serve the requests.
-The details about key differences and deployment process will be described on the dedicated Docker Hub page as soon as it's released.
-
-To succeed with your on-premise service usage by the SDK, you need to:
-1. Set the *clientId* and *clientSecret* parameters as null and use *baseUrl* parameter according to your on-premise deployment with additional API version and debug mode parameters.
-```ts
-const imagingApi: imaging.ImagingApi  = new imaging.ImagingApi(null, null, "yourServiceUrl");
-```
-2. Set *storage* or *storageName* parameters for each request where they're present (mandatory!).
-
 
 ## Licensing
 All Aspose.Imaging Cloud SDKs, helper scripts and templates are licensed under [MIT License](LICENSE).
