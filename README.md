@@ -16,13 +16,13 @@ To use this SDK, you will need Client ID and Client Secret which can be looked u
 - Merge multiple TIFF images.
 
 ## Read & Write Image Formats
-BMP, GIF, JPEG, JPEG2000, PSD, TIFF, WEBP, PNG, WMF, EMF, SVG
+BMP, GIF, JPEG, JPEG2000, PSD, TIFF, WEBP, PNG, WMF, EMF, SVG, TGA, APNG
 
 ## Save Image As
 PDF, DICOM
 
 ## Read Image Formats
-DJVU, DICOM, CDR, CMX, ODG, DNG, EPS
+DJVU, DICOM, CDR, CMX, ODG, DNG, EPS, EMZ, WMZ, SVGZ
 
 ## Enhancements in Version 20.12
 
